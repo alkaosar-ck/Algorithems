@@ -1,3 +1,5 @@
+typedef unsigned long long ull;
+typedef long long ll;
 
 ull modmul(ull a, ull b, ull m)
 {
