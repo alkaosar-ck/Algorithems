@@ -36,3 +36,6 @@ pair<int, P> lineInter(P s1, P e1, P s2, P e2)
 	auto p = s2.cross(e1, e2), q = s2.cross(e2, s1);
 	return {1, (s1 * p + e1 * q) / d};
 }
+//Use:  auto res=lineInter(s1,e1,s2,e2);
+ //if(res.first==1)
+ //cout<<"intersectionpointat"<<res.second<<endl;
